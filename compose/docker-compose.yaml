@@ -1,0 +1,18 @@
+version: '2'
+services:
+  drupal:
+    image: 'docker.io/bitnami/drupal-nginx:8-debian-10'
+    ports:
+      - '80:8080'
+      - '443:8443'
+    environment:
+      - DRUPAL_DATABASE_HOST=${DB_SERVER_NAME}.mariadb.database.azure.com
+      - DRUPAL_DATABASE_PORT_NUMBER=3306
+      - DRUPAL_DATABASE_USER=${DB_ADMIN_NAME}
+      - DRUPAL_DATABASE_PASSWORD=${DB_ADMIN_PASSWORD}
+      - DRUPAL_DATABASE_NAME=${DB_NAME}
+    volumes:
+      - '${FILESHARE_NAME}:/bitnami/drupal'
+volumes:
+  ${FILESHARE_NAME}:
+    external: true
