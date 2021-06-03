@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/hshahindemos/08d1ff8f-4902-4c18-8816-f0b973973848/0b3c364e-f217-42cf-b354-795ecd9b5d53/_apis/work/boardbadge/cd0508ae-5487-4c25-bf0b-64311733f992)](https://dev.azure.com/hshahindemos/08d1ff8f-4902-4c18-8816-f0b973973848/_boards/board/t/0b3c364e-f217-42cf-b354-795ecd9b5d53/Microsoft.RequirementCategory)
 # Drupal on Azure App Service
 
 This sample provides guidance and code to run a containerized Drupal image on [Azure Web Apps for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/) with the Drupal database externalized to [Azure Database for MariaDB](https://docs.microsoft.com/en-us/azure/mariadb/).  The container image used is [Bitnami's Docker images for Drupal with NGINX](https://github.com/bitnami/bitnami-docker-drupal-nginx).
