@@ -177,8 +177,6 @@ When the site is ready, login to a jumpbox and navigate to the URL
 
 #### Jumpbox VM to View Site
 
-> Info: You should not use Azure Bastion at this point since the VNet is linked to a private DNS Zone (https://docs.microsoft.com/en-us/azure/bastion/tutorial-create-host-portal#prerequisites)
-
 Since this deployment is occurring within a Private vNet, you will need a VM connected to that VNet in order to access the site. 
 
 #### Log in to the site
