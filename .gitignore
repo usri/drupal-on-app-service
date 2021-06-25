@@ -1,2 +1,2 @@
-.env
-compose/docker-compose-subst.yaml
+**/.env
+**/compose/docker-compose-subst.yaml
